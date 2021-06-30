@@ -1,0 +1,101 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+body{
+    background:  linear-gradient(174deg, #FFD370 2%, #FFD370 46%, #FFFFFF 46%, #FFFFFF 100%, #E8E8E8 100%) no-repeat;
+}
+
+.contain{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.title{
+    font-family: "BalooTamma2-Bold",sans-serif;
+    color: #333333;
+    font-size: 48px;
+    text-align: center;
+    line-height: 48px;
+    letter-spacing: 8.75px;
+    padding-top: 48px;
+    padding-bottom: 26px;
+}
+
+.add{
+    position: relative;
+    margin-bottom: 8px;
+}
+.add_Item{
+    width: 500px;
+    height: 48px;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 24px;
+}
+.add_Save{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: #fff;
+    background: #333333;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    padding: 4px;
+}
+
+.list{
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    border-radius: 10px;
+    padding-left: 24px;
+}
+.list_table{
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.list_table_01{
+    border-bottom: 2px solid #333333;
+}
+.list_footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    padding-right: 47px;
+}
+
+.list_item_li{
+    position: relative;
+    line-height: 24px;
+    padding-left: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.check{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    margin-right: 16px;
+    width: 20px;
+    height: 20px;
+}
+.delete{
+    position: absolute;
+    right: 16px;
+}
